@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="calculator-technology-svgrepo-com.svg" type="image/x-icon">
+    <title>Calculadora</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+        </style>
+</head>
+<body>
+    
+    <div class="container-geral">
+
+    <p class="result" id="resultado" > </p><hr style="border: 0.25px solid rgb(191, 189, 189);;">
+    <section class="operacionais-horizontal">
+        <button id="limpar" onclick="clean()">AC</button>
+        <button  id="divisao" onclick="insert('/')">/</button>
+       </section>
+    
+   
+    <section class="numeros">
+        <button  onclick="insert('1')">1</button>
+
+        <button  onclick="insert('2')">2</button>
+        
+        <button  onclick="insert('3')">3</button>
+
+        <button id="vezes"  onclick="insert('*')">x</button>
+
+        <button  onclick="insert('4')">4</button>
+
+        <button  onclick="insert('5')">5</button>
+
+        <button  onclick="insert('6')">6</button>
+
+        <button  id="mais" onclick="insert('+')">+</button>
+
+        <button onclick="insert('7')">7</button>
+
+        <button onclick="insert('8')">8</button>
+
+        <button onclick="insert('9')">9</button>
+
+        <button  id="menos"onclick="insert('-')">-</button>
+
+        <button onclick="insert('0')">0</button>
+
+        <button onclick="insert(',')">,</button>
+
+        <button id="backspage"onclick="apagar()"><=</button>
+
+        <button id="igual" onclick="conclui()">=</button>
+     
+    
+   
+       
+    </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
