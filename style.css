@@ -5,8 +5,16 @@
     font-size: medium;
     font-family: 'Josefin Sans', sans-serif;
     
+    
 }
+.gradiente{
+    background-image:linear-gradient( 45deg, rgb(247, 24, 247), purple, black );
+    height: 100%vh;
+    width: 100%vw;
+    animation: colors 15s ease infinite;
+    background-size: 300% 300%;
 
+}
 
 
 .container-geral{
@@ -77,4 +85,23 @@ p{
 }
 #igual{
     background: rgb(241, 241, 241);
+}
+footer{
+    color:rgb(191, 189, 189);
+    margin-top: 26.7vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+@keyframes colors{
+    0%{
+    background-position:0% 50% ;
+    }
+    50%{
+        background-position:100% 50% ;
+    }
+    100%{
+        background-position:0% 50% ;
+    }
 }
