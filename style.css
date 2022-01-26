@@ -4,18 +4,17 @@
     margin: 0;
     font-size: medium;
     font-family: 'Josefin Sans', sans-serif;
-    
-    
+    list-style: none;
+    text-decoration: none;
 }
+
 .gradiente{
     background-image:linear-gradient( 45deg, rgb(247, 24, 247), purple, black );
     height: 100%vh;
     width: 100%vw;
     animation: colors 15s ease infinite;
     background-size: 300% 300%;
-
 }
-
 
 .container-geral{
    background: black;
@@ -25,6 +24,39 @@
    margin-top: 150px;
    border-radius: 20px;
 }
+
+header{
+    margin-top: 0px;
+    background: black;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+li{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+li:hover{
+    background: purple;
+}
+#link{
+    color: white;
+}
+
 p{
     font-size: 30px;
     background: black;
@@ -33,20 +65,17 @@ p{
     padding: 5px;
     height: 75px;
     border-radius: 20px 20px 0 0;
-   
     margin-bottom: 5px;
-    margin-right: 10px;
-    
-} 
- 
+    margin-right: 10px;    
+}
 
 .numeros{
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
     margin-top: 5px;
-    
 }
+
 .numeros button{
     border-radius: 50%;
     width: 50px;
@@ -54,14 +83,15 @@ p{
     margin: 5px;
     border: solid black;
 }
+
 .operacionais-horizontal{
     display: flex;
     justify-content: space-between;
     margin-right: 16px;
     margin-left: 7px;
     margin-top: 5px;
-
 }
+
 .operacionais-horizontal button{
     border-radius: 50%;
     width: 50px;
@@ -72,28 +102,34 @@ p{
 .numeros button{
     background: rgb(191, 189, 189);
 }
+
 #porcentagem,#divisao,#vezes,#mais,#menos{
     background: purple;
 }
+
 #limpar{
     background: rgb(247, 24, 247);
     width: 70px;
     margin-left: 49px;
 }
+
 #backspage{
     background:rgb(94, 50, 94)
 }
+
 #igual{
     background: rgb(241, 241, 241);
 }
+
 footer{
     color:rgb(191, 189, 189);
-    margin-top: 26.7vh;
+   margin-top: 18vh;
     background: black;
     display: flex;
     justify-content: center;
     height: 20px;
 }
+
 @keyframes colors{
     0%{
     background-position:0% 50% ;
