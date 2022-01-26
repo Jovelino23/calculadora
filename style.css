@@ -17,6 +17,7 @@
 }
 
 .container-geral{
+    position: relative;
    background: black;
     max-width: 250px;
     max-height: 500px;
@@ -123,11 +124,13 @@ p{
 
 footer{
     color:rgb(191, 189, 189);
-   margin-top: 18vh;
+    bottom: 0;
     background: black;
     display: flex;
     justify-content: center;
     height: 20px;
+    position: absolute;
+    width: 100%;
 }
 
 @keyframes colors{
@@ -141,3 +144,4 @@ footer{
         background-position:0% 50% ;
     }
 }
+
