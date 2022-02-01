@@ -155,4 +155,9 @@ footer{
         background-position:0% 50% ;
     }
 }
+@media(max-width:400px){
+    li{
+        margin: 5px;
+    }
+}
 
