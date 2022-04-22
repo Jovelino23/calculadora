@@ -8,11 +8,11 @@
     text-decoration: none;
    
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap');
 .gradiente{
     background-image:linear-gradient( 45deg, rgb(247, 24, 247), purple, black );
-    height: 100%vh;
-    width: 100%vw;
+    height: 100vh;
+    width: 100vw;
     animation: colors 15s ease infinite;
     background-size: 300% 300%;
 }
@@ -31,42 +31,28 @@ header{
     margin-top: 0px;
     background: black;
     color: white;
-}
-#nome-site{
-    font-size: 30px;
-    color: rgb(199, 163, 0);
-    font-family: 'Comforter', cursive;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-.img{
-    height: 50px;
-    width: 50px;
-}
-
-.menu{
+.barra{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-left:10px;
-    margin-right: 10px;
+    justify-content: center;
+    font-size: 3em;
+    color: darkgoldenrod;
 }
 
-.lista{
+.nome {
     display: flex;
-    justify-content: space-around;
-    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+   
 }
-li{
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
-}
-li:hover{
-    background: purple;
-}
-#link{
-    color: white;
+.nome a{
+    color: darkred;
 }
 
 p{

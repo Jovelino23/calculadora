@@ -19,3 +19,4 @@ function conclui(){
         document.getElementById('resultado').innerHTML = eval(resultado.innerHTML)
     }
 }
+
